@@ -44,6 +44,10 @@ msgstr ""
 msgid "Add Category"
 msgstr ""
 
+#: client/app/modules/products/views/main.html:3
+msgid "Add Product"
+msgstr ""
+
 #: client/app/modules/products/views/categoryform.html:3
 msgid "Add a new category"
 msgstr ""
@@ -60,7 +64,7 @@ msgstr ""
 msgid "Add a new post"
 msgstr ""
 
-#: client/app/modules/products/views/form.html:4
+#: client/app/modules/products/views/form.html:3
 msgid "Add a new product"
 msgstr ""
 
@@ -108,11 +112,11 @@ msgstr ""
 msgid "Categories"
 msgstr ""
 
-#: client/app/modules/products/controllers/products.ctrl.js:87
+#: client/app/modules/products/controllers/products.form.ctrl.js:20
 msgid "Category"
 msgstr ""
 
-#: client/app/modules/products/controllers/products.ctrl.js:66
+#: client/app/modules/products/controllers/products.ctrl.js:64
 msgid "Category deleted"
 msgstr ""
 
@@ -182,10 +186,6 @@ msgstr ""
 msgid "Could not add post!"
 msgstr ""
 
-#: client/app/modules/products/views/form.html:12
-msgid "Could not add product!"
-msgstr ""
-
 #: client/app/modules/settings/views/form.html:12
 msgid "Could not add setting!"
 msgstr ""
@@ -224,7 +224,7 @@ msgid "Deleting this cannot be undone"
 msgstr ""
 
 #: client/app/modules/events/controllers/events.ctrl.js:86
-#: client/app/modules/products/controllers/products.ctrl.js:92
+#: client/app/modules/products/controllers/products.form.ctrl.js:32
 msgid "Description"
 msgstr ""
 
@@ -254,7 +254,7 @@ msgstr ""
 msgid "Edit post"
 msgstr ""
 
-#: client/app/modules/products/views/form.html:5
+#: client/app/modules/products/views/form.html:4
 msgid "Edit product"
 msgstr ""
 
@@ -284,7 +284,7 @@ msgstr ""
 msgid "Enjoy the new you!"
 msgstr ""
 
-#: client/app/modules/products/controllers/products.ctrl.js:71
+#: client/app/modules/products/controllers/products.ctrl.js:69
 msgid "Error deleting category"
 msgstr ""
 
@@ -404,7 +404,7 @@ msgstr ""
 msgid "Logged in"
 msgstr ""
 
-#: client/app/modules/core/controllers/main.ctrl.js:28
+#: client/app/modules/core/controllers/main.ctrl.js:24
 msgid "Logged out"
 msgstr ""
 
@@ -443,7 +443,7 @@ msgstr ""
 #: client/app/modules/events/controllers/events.ctrl.js:80
 #: client/app/modules/files/views/upload.html:56
 #: client/app/modules/products/controllers/categories.ctrl.js:23
-#: client/app/modules/products/controllers/products.ctrl.js:82
+#: client/app/modules/products/controllers/products.form.ctrl.js:16
 msgid "Name"
 msgstr ""
 
@@ -511,10 +511,6 @@ msgstr ""
 msgid "Password"
 msgstr ""
 
-#: client/app/modules/products/controllers/products.ctrl.js:96
-msgid "Percentage"
-msgstr ""
-
 #: client/app/modules/posts/controllers/posts.ctrl.js:56
 msgid "Post saved"
 msgstr ""
@@ -525,7 +521,7 @@ msgstr ""
 msgid "Posts"
 msgstr ""
 
-#: client/app/modules/products/controllers/products.ctrl.js:100
+#: client/app/modules/products/controllers/products.form.ctrl.js:36
 msgid "Price"
 msgstr ""
 
@@ -537,7 +533,7 @@ msgstr ""
 msgid "Product deleted"
 msgstr ""
 
-#: client/app/modules/products/controllers/products.ctrl.js:111
+#: client/app/modules/products/controllers/products.form.ctrl.js:57
 msgid "Product saved"
 msgstr ""
 
@@ -582,7 +578,6 @@ msgstr ""
 #: client/app/modules/events/controllers/events.ctrl.js:126
 #: client/app/modules/posts/controllers/posts.ctrl.js:51
 #: client/app/modules/products/controllers/categories.ctrl.js:30
-#: client/app/modules/products/controllers/products.ctrl.js:106
 #: client/app/modules/users/controllers/profile.ctrl.js:36
 #: client/app/modules/users/controllers/users.ctrl.js:91
 msgid "Save"
@@ -639,7 +634,6 @@ msgstr ""
 #: client/app/modules/notes/views/form.html:17
 #: client/app/modules/posts/views/form.html:17
 #: client/app/modules/products/views/categoryform.html:13
-#: client/app/modules/products/views/form.html:17
 #: client/app/modules/settings/views/form.html:21
 msgid "Submit"
 msgstr ""
@@ -744,7 +738,7 @@ msgstr ""
 msgid "You are logged in!"
 msgstr ""
 
-#: client/app/modules/core/controllers/main.ctrl.js:29
+#: client/app/modules/core/controllers/main.ctrl.js:25
 msgid "You are logged out!"
 msgstr ""
 
@@ -765,11 +759,11 @@ msgstr ""
 msgid "Your Gravatar"
 msgstr ""
 
-#: client/app/modules/products/controllers/products.ctrl.js:67
+#: client/app/modules/products/controllers/products.ctrl.js:65
 msgid "Your category is deleted!"
 msgstr ""
 
-#: client/app/modules/products/controllers/products.ctrl.js:72
+#: client/app/modules/products/controllers/products.ctrl.js:70
 msgid "Your category is not deleted:"
 msgstr ""
 
@@ -838,7 +832,7 @@ msgstr ""
 msgid "Your product is not deleted:"
 msgstr ""
 
-#: client/app/modules/products/controllers/products.ctrl.js:112
+#: client/app/modules/products/controllers/products.form.ctrl.js:58
 msgid "Your product is safe with us!"
 msgstr ""
 
